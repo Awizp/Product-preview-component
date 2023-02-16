@@ -1,0 +1,71 @@
+@use '../util' as u;
+
+.text_container {
+    padding: 1rem;
+    background-color: hsl(353, 46%, 86%, 0.9);
+    color: var(--black-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.text_title {
+    font-size: u.rem(26);
+    font-weight: 600;
+}
+
+.text_preview {
+    color: hsl(355, 41%, 5%);
+    font-size: u.rem(15);
+    font-weight: 500;
+}
+
+.text_fade {
+    font-family: u.$font2;
+    font-size: u.rem(14);
+}
+
+.price_grid {
+    display: flex;
+    flex-direction: row;
+    gap: u.rem(10);
+    align-items: center;
+}
+
+.current_price {
+    font-size: u.rem(20);
+    font-weight: 600;
+    color: var(--main-dark-color);
+}
+
+.actual_price {
+    font-size: u.rem(14);
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-top: u.rem(3);
+    margin-bottom: auto;
+}
+
+.btn {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: u.rem(10);
+    border: none;
+    border-radius: 5px;
+    width: u.rem(250);
+    height: u.rem(50);
+    margin-inline: auto;
+    color: var(--white-color);
+    cursor: pointer;
+    box-shadow: 1px 2px hsl(0, 0%, 0%, 0.5);
+    transition: all 250ms ease;
+
+    &:hover {
+        background-color: hsl(358, 100%, 72%, 0.8);
+    }
+}
