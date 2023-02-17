@@ -21,6 +21,11 @@ body {
   overflow: hidden;
   position: relative;
 }
+@media (max-width: 43.74875em) {
+  .body {
+    overflow: auto;
+  }
+}
 
 h1, h2, h3 {
   letter-spacing: 0.5px;
