@@ -11,6 +11,10 @@ Thanks for checking out this front-end coding challenge.
 
 This component responsive for any devices started with Mobile first approach.
 
+Then I used display: flex method to align card at center of the page
+
+I used <picture> tag to change two images between page width ranges.
+
 Colours I selected from colorhunt.io site
 
 Languages I used for this component,
@@ -21,3 +25,5 @@ Languages I used for this component,
 All feedback is greatly appreciated!
 
 # Visit the site
+
+https://awizp.github.io/Product-preview-component/
