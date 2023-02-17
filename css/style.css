@@ -23,7 +23,7 @@ body {
 }
 @media (max-width: 43.74875em) {
   .body {
-    overflow: auto;
+    overflow-x: hidden;
   }
 }
 
