@@ -18,4 +18,6 @@ Languages I used for this component,
 2. CSS
 3. SCSS
 
+All feedback is greatly appreciated!
 
+# Visit the site
